@@ -227,3 +227,209 @@ gap: 50px;
   
   
 }
+.cardbanner > h3 {
+  color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 46px;
+font-weight: 700;
+line-height: 57.5px;
+letter-spacing: 0%;
+width: 460.61px;
+height: 57.5px;
+}
+.cardsection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.cardsection > .cardone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+gap: 10px;
+padding: 15px;
+height: 476.78px;
+width: 367.8px;
+}
+.cardone > img {
+width: 136.76px;
+height: 136.76px;
+left: 115.54px;
+top: 52.82px;
+}
+.cardone > h4 {
+  color: rgb(32, 32, 32);
+font-family: Quicksand;
+font-size: 24.52px;
+font-weight: 700;
+line-height: 30.65px;
+letter-spacing: 0%;
+text-align: center;
+}
+.cardone > p {
+  color: rgb(128, 128, 128);
+font-family: Raleway;
+font-size: 15.09px;
+font-weight: 500;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+}
+.cardone > button {
+  color: rgb(100, 200, 255);
+font-family: Quicksand;
+font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+background: none;
+}
+.cardtwo{
+
+width: 367.8px;
+height: 481.5px;
+box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 15px;
+gap: 10px;
+}
+.cardtwo > img {
+
+width: 137.44px;
+height: 124.69px;
+left: 1.48%;
+right: 1.37%;
+top: 5.99%;
+bottom: 5.88%;
+
+}
+.cardtwo > h4 {
+  color: rgb(32, 32, 32);
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.65px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.cardtwo > p {
+  color: rgb(128, 128, 128);
+font-family: Raleway;
+font-size: 15.09px;
+font-weight: 500;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+}
+.cardtwo > button {
+  color: rgb(240, 170, 0);
+font-family: Quicksand;
+font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+background: none;
+}
+.cardthree{
+  width: 367.8px;
+height: 476.78px;
+box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 15px;
+flex-direction: column;
+}
+.cardthree > img {
+
+width: 125.41px;
+height: 126.1px;
+left: 4.2%;
+right: 4.1%;
+top: 3.9%;
+bottom: 3.9%;
+}
+.cardthree > h4 {
+  color: rgb(32, 32, 32);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 30.65px;
+letter-spacing: 0%;
+text-align: center;
+}
+.cardthree > p {
+  color: rgb(128, 128, 128);
+font-family: Raleway;
+font-size: 15.09px;
+font-weight: 500;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+}
+.cardthree > button {
+  color: rgb(135, 0, 255);
+font-family: Quicksand;
+font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+background: none;
+}
+.cardbanner {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 80px;
+margin-top: 60px;
+padding: 20px;
+
+}
+@media (max-width:600px) {
+  .cardbanner > h3 {
+text-align: center;
+width: fit-content;
+
+ }
+  .cardsection{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+    
+  
+  
+    
+  }
+  
+
+}
