@@ -776,7 +776,7 @@ font-size: 42.14px;
 font-weight: 700;
 line-height: 39.51px;
 letter-spacing: 0%;
-text-align: left;
+
 }
 .imagebox p{
   color: rgb(255, 255, 255);
@@ -790,7 +790,7 @@ text-align: left;
 .imagebox{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   max-width: 399px;
 gap: 10px;
