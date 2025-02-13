@@ -728,10 +728,10 @@ text-align: center;
 .storiescard{
   grid-template-columns: repeat(2,auto);
   grid-template-rows: repeat(2,auto);
-column-gap: 5px;}
+column-gap: 7px;}
   .stories img {
-    width: 175px;}
-    }
+    width: 170px;}
+    
     .stories section {
       width: max-content;
       height: 25px;
@@ -754,5 +754,102 @@ padding: 7px;    }
 }
 .stories {
   padding-top: 0px;
+}
+}
+
+footer {
+  background: rgb(1, 172, 253);
+  }
+  .content {
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+padding: 60px 0px;
+  }
+.finalimage{
+  display: flex;
+  justify-content: center;
+align-items: center;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 42.14px;
+font-weight: 700;
+line-height: 39.51px;
+letter-spacing: 0%;
+text-align: left;
+}
+.imagebox p{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
+.imagebox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 399px;
+gap: 10px;
+
+}
+.footerul > h4 {
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footerul  a {
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+gap: 10px;
+}
+.footerul > li {
+  list-style: none;
+}
+.footerul{
+  display: flex;
+  flex-direction: column;
+gap: 10px;
+}
+.contact{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 26px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.contact h5 {
+  margin-bottom: 10px;
+}
+@media (max-width:600px) {
+  .imagebox{
+    width: 100%;
+    align-items: flex-start;
+  }
+  .content {
+    display: flex;
+flex-direction: column; 
+align-items: flex-start;
+gap: 15px;
+padding: 15px; }
+
+.finalimage {
+  font-size: 35px;
+  width: 200px;
 }
 }
