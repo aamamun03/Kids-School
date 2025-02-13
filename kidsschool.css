@@ -838,7 +838,7 @@ text-align: left;
 }
 @media (max-width:600px) {
   .imagebox{
-    width: 100%;
+    width: fit-content;
     align-items: flex-start;
   }
   .content {
@@ -850,6 +850,6 @@ padding: 15px; }
 
 .finalimage {
   font-size: 35px;
-  width: 200px;
+  width: 220px;
 }
 }
